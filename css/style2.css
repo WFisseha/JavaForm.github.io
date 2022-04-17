@@ -1,0 +1,149 @@
+h1{
+	font-size: 28px;
+    color:#043862;
+}
+nav ul{
+	list-style:none
+}
+
+a{	margin:0;
+	padding:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:transparent
+}
+body {
+    font-family: 'Arial', sans-serif; 
+	background-color: #AEC6CF;
+    background-image: linear-gradient(to bottom, #AEC6CF, #ffffff, #AEC6CF)
+}
+header {
+    background: #031b2e;
+    padding: 1px 30px;
+    max-width: 940px;
+    margin: auto;
+    box-shadow: .3px .3px .6px  #999;
+}
+.navbar {
+  overflow: hidden;
+  background-color: inherit;
+}
+.navbar a {
+  float: left;
+  font-size: 17px;
+  color: #fbfcff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  }
+
+#pageContent {
+	max-width: 1000px;
+	margin: auto;
+	border: none;
+}
+main {
+	float: left;
+	width: 100%;
+}
+p {
+    font-family: 'Arial', sans-serif; 
+}
+footer {
+	background: #95c3d4;
+	max-width: 1000px;
+    padding: 1px 10px;
+	margin: auto;
+	clear: both;
+	text-align: center;
+    font-size: 13px;
+    color:#031b2e;
+    box-shadow: .3px .3px .6px  #999;
+}
+footer a,p:link {
+    color: #091d3b;
+    display: inline;
+    text-decoration: none;
+}
+footer p {
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+footer a:hover {color: #fcfdff;
+    display: inline; 
+}
+label{float:left;
+color:inherit;
+display: block;
+width: 10em;
+}
+#comments {float:left;
+color:inherit;
+display: block;
+width: 22em;
+}
+#vegan, #vegetarian, #nonvegt {
+color:inherit;
+display:inline-block;
+width: 2em;
+ margin-left: 12em;   
+}
+#phoneno, #emailaddr, #mail, #linkedin {
+color:inherit;
+display:inline-block;
+width: 2em;
+margin-left: 12em;
+position: static;
+}
+#submit {
+background-color:#95c3d4;
+width:9em;
+height: 2em;
+font-size: .9em;
+}
+#reset {
+background-color:#95c3d4;
+width:9em;
+height: 2em;
+font-size: .9em;
+}
+#logo {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 45px;
+	margin-right: 75px;
+    margin-top: 18px;
+	color: #FFF; 
+}
+#logo img {
+	width: 90px;
+	vertical-align: middle;
+	margin-right: 15px;
+}
+body section {
+	max-width: 1000px;
+	margin: auto;
+	padding: 1px;
+	border-bottom: 1px solid #999;
+	color: #333;
+}
+img {
+    width: 100%;
+    }
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: .5}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: .5}
+}
+
+@media screen and (max-width: 1000px) {
+	body  {
+		padding: 30px 20px;
+	}
+}
+
